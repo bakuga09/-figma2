@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+$layout-width-inner: 1187px;
+
+//マップ型変数breakpointsを定義
+
+$breakpoints: (
+  //キー　　値
+  "sp": "screen and (max-width: 767px)",
+  //767px以下（スマホ）用の表示
+  "tab":
+    "screen and (min-width: 768px) and (max-width: #{$layout-width-inner - 1px})",
+    //1187px~768px間の表示
+  "pc":
+    "screen and (min-width: #{$layout-width-inner})"
+    //インナー以上(pcサイズ)用の表示
+) !default;
+
+//メディアクエリ用のmixinを定義。デフォ値はmd
+@mixin mq($breakpoint: md) {
+  //map-get(マップ型変数, キー)で値を取得
+  @media #{map-get($breakpoints, $breakpoint)} {
+    //この中をカスタムできる
+    @content;
+  }
+}
+
+// -----
+// 初期化
+// -----
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+@include mq(sp) {
+  .is-pc {
+    display: none;
+  }
+}
+
+@include mq(tab) {
+  .is-sp {
+    display: none;
+  }
+}
+
+@include mq(pc) {
+  .is-sp {
+    display: none;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom;
+}
+
+// 階層
+$layer: (
+  modal: 100,
+  // モダール
+  drawer: 40,
+  // ドロワー
+  floating: 30,
+  // フローティングアイテム
+  header: 20,
+  // ヘッダー
+  footer: 10,
+  // フッター
+  default: 1,
+);
+
+//色
+$base-color: #64629D;
+$sub-color: #9F9EC1;
+$bg-color: #EDECFC;
+$font-base-color: #2D2D32;
+
+//フォント
+$font-family-base: "Noto Sans JP", sans-serif;
+
+
+body {
+  color: $font-base-color;
+  font-family: $font-family-base;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+
+@mixin common-btn($bgcolor: #64629d, $width: 180px, $height: 40px, $color: #fff) {
+  width: $width;
+  height: $height;
+  background-color: $bgcolor;
+  display: flex;
+  color: $color;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    width: 100%;
+  }
+}
+

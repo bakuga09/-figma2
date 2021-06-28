@@ -1,0 +1,1050 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .is-pc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1186px) {
+  .is-sp {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1187px) {
+  .is-sp {
+    display: none;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom;
+}
+
+body {
+  color: #2D2D32;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .is-pc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1186px) {
+  .is-sp {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1187px) {
+  .is-sp {
+    display: none;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom;
+}
+
+body {
+  color: #2D2D32;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+header .container {
+  height: 72px;
+  width: 1187px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-h1 {
+  font-family: 'Lato' sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1;
+  color: #64629D;
+}
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-nav-item {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header-nav-item + .header-nav-item {
+  margin-left: 16px;
+}
+
+.header-btn {
+  margin-left: 14px;
+  width: 180px;
+  height: 40px;
+  background-color: #64629d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.header-btn a {
+  display: inline-block;
+  width: 100%;
+}
+
+.main-visual {
+  padding-top: 33px;
+  padding-bottom: 22px;
+  background: #EDECFC;
+}
+
+.main-visual .container {
+  max-width: 1187px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-box {
+  max-width: 656px;
+}
+
+.text-box h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.448;
+}
+
+.top-text {
+  font-size: 18px;
+  margin-top: 24px;
+  line-height: 1.8;
+}
+
+.btn-flex {
+  margin-top: 33px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-left-btn {
+  width: 250px;
+  height: 54px;
+  background-color: #64629d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+  border-radius: 27px;
+}
+
+.main-left-btn a {
+  display: inline-block;
+  width: 100%;
+}
+
+.main-left-btn a {
+  font-size: 18px;
+  line-height: 54px;
+  display: inline-block;
+  width: 100%;
+}
+
+.main-right-btn {
+  border: 2px solid #64629D;
+  margin-left: 37px;
+  width: 250px;
+  height: 54px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #64629d;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+  border-radius: 27px;
+}
+
+.main-right-btn a {
+  display: inline-block;
+  width: 100%;
+}
+
+.main-right-btn a {
+  font-size: 18px;
+  line-height: 54px;
+  display: inline-block;
+  width: 100%;
+}
+
+.main-image {
+  width: 515px;
+  height: 515px;
+  margin-left: 16px;
+}
+
+/*===================================================
+# タスク管理
+=================================================== */
+.task {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #F9F9F9;
+}
+
+.task .container {
+  width: 1187px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.util-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 54px;
+}
+
+.util-title::before {
+  content: 'What is Ravek?';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 36px;
+  line-height: 1;
+  color: #9F9EC1;
+}
+
+.task-text {
+  margin-top: 29px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.ravek-btn {
+  margin: 40px auto 0;
+  width: 400px;
+  height: 70px;
+  background-color: #64629d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.24);
+  border-radius: 50px;
+}
+
+.ravek-btn a {
+  display: inline-block;
+  width: 100%;
+}
+
+.ravek-btn a {
+  font-size: 24px;
+  line-height: 70px;
+  display: inline-block;
+  width: 100%;
+}
+
+/*===================================================
+# Ravekの3つの特徴
+=================================================== */
+.features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #F9F9F9;
+}
+
+.features .container {
+  max-width: 1167px;
+  margin: 0 auto;
+}
+
+.util-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 54px;
+}
+
+.util-title::before {
+  content: 'Feature';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 36px;
+  line-height: 1;
+  color: #9F9EC1;
+}
+
+.task-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+
+.task-flex:first-of-type {
+  margin-top: 102px;
+}
+
+.task-flex .task-box {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 742px;
+      -ms-flex: 0 1 742px;
+          flex: 0 1 742px;
+  padding: 65px 124px 64px 40px;
+  background: #fff;
+  border-radius: 30px;
+}
+
+.task-flex.reverse-flow {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 153px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-flow: row-reverse;
+      -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse;
+}
+
+.task-flex.reverse-flow .task-box {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 742px;
+      -ms-flex: 0 1 742px;
+          flex: 0 1 742px;
+  padding: 65px 19px 65px 40px;
+  background: #fff;
+  border-radius: 30px;
+}
+
+.task-h2, .task2-h2, .task3-h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.44806;
+  position: relative;
+  padding-left: 108px;
+}
+
+.task-h2::before, .task2-h2::before, .task3-h2::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '01';
+  font-size: 72px;
+  font-weight: 700;
+  color: #64629D;
+}
+
+.task2-h2::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '02';
+  font-size: 72px;
+  font-weight: 700;
+  color: #64629D;
+}
+
+.task3-h2::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '03';
+  font-size: 72px;
+  font-weight: 700;
+  color: #64629D;
+}
+
+.description {
+  margin-top: 17px;
+  font-size: 16px;
+  padding-left: 108px;
+  line-height: 1.8;
+}
+
+.reverse-flow .description {
+  padding-right: 110px;
+}
+
+.task-image, .task-image3 {
+  max-width: 520px;
+  position: absolute;
+  right: 0;
+}
+
+.reverse-flow .task-image {
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.task-flex.task-last {
+  margin-top: 263px;
+}
+
+/*===================================================
+# 14日間の無料トライアル可能。
+Ravekで快適なタスク管理を体験しよう
+=================================================== */
+.trial-area {
+  background: #2D2D32;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.trial-area .container {
+  max-width: 1187px;
+  margin: 0 auto;
+}
+
+.trial-text {
+  color: #fff;
+  font-size: 36px;
+  line-height: 1.44444;
+}
+
+.trial-btn {
+  width: 400px;
+  height: 70px;
+  background-color: #64629d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+  margin: 32px auto 0;
+  border-radius: 50px;
+  font-size: 24px;
+}
+
+.trial-btn a {
+  display: inline-block;
+  width: 100%;
+}
+
+.trial-btn a {
+  line-height: 70px;
+}
+
+/*===================================================
+# 導入実績
+=================================================== */
+.performance {
+  background: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.performance .container {
+  max-width: 972px;
+  margin: 0 auto;
+}
+
+.performance .util-title {
+  font-size: 48px;
+  line-height: 48px;
+  position: relative;
+  text-align: center;
+  color: #64629D;
+  padding-top: 54px;
+}
+
+.performance .util-title::before {
+  content: 'Users';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 36px;
+  line-height: 1;
+  color: #9F9EC1;
+}
+
+.works-flex {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.work-image {
+  max-width: 213px;
+}
+
+.work-image + .work-image {
+  margin-left: 40px;
+}
+
+.work-image:nth-of-type(4n+1) {
+  margin-left: 0;
+}
+
+.work-image:nth-of-type(n+5) {
+  margin-top: 50px;
+}
+
+.work-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+/*===================================================
+# 導入までの流れ
+=================================================== */
+.flow-area {
+  background: #F9F9F9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.flow-area .container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.flow-area .util-title {
+  font-size: 48px;
+  line-height: 48px;
+  position: relative;
+  text-align: center;
+  color: #64629D;
+  padding-top: 54px;
+}
+
+.flow-area .util-title::before {
+  content: 'Flow';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 36px;
+  line-height: 1;
+  color: #9F9EC1;
+}
+
+.flow-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 55px;
+}
+
+@media screen and (max-width: 767px) {
+  .flow-flex {
+    margin-top: 30px;
+  }
+}
+
+.flow-box {
+  width: calc(33.33333333% - 115px * 2 / 3);
+  position: relative;
+}
+
+.flow-box + .flow-box {
+  margin-left: 115px;
+}
+
+.flow-box::before {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  content: '01';
+  font-size: 48px;
+  line-height: 1;
+  color: #64629D;
+  font-weight: 700;
+  z-index: 10;
+}
+
+.flow-box.box2::before {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  content: '02';
+  font-size: 48px;
+  line-height: 1;
+  color: #64629D;
+  font-weight: 700;
+  z-index: 10;
+}
+
+.flow-box.box3::before {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  content: '03';
+  font-size: 48px;
+  line-height: 1;
+  color: #64629D;
+  font-weight: 700;
+  z-index: 10;
+}
+
+.flow-box h3 {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.44792;
+}
+
+.flow-box p {
+  margin-top: 8px;
+  line-height: 1.8;
+}
+
+.flow-image {
+  background-color: #EDECFC;
+  border-radius: 30px;
+  height: 191px;
+  position: relative;
+}
+
+.flow-contents {
+  width: 100%;
+  height: inherit;
+  background: url(../img/01img.png) no-repeat center;
+  background-size: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.flow-contents2 {
+  width: 100%;
+  height: inherit;
+  background: url(../img/02img.png) no-repeat center;
+  background-size: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.flow-contents3 {
+  width: 100%;
+  height: inherit;
+  background: url(../img/03img.png) no-repeat center;
+  background-size: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/*===================================================
+# 料金プラン
+=================================================== */
+.price-area {
+  padding-top: 100px;
+  padding-bottom: 115px;
+}
+
+.price-area .container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.price-area .util-title {
+  font-size: 48px;
+  line-height: 48px;
+  position: relative;
+  text-align: center;
+  color: #64629D;
+  padding-top: 54px;
+}
+
+.price-area .util-title::before {
+  content: 'Price';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 36px;
+  line-height: 1;
+  color: #9F9EC1;
+}
+
+.price-flex {
+  margin-top: 68px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.light-box, .basic-box, .premium-box {
+  width: 260px;
+}
+
+.light-box {
+  padding-top: 47px;
+  padding-bottom: 41px;
+  background: #2D2D32;
+  color: #fff;
+  text-align: center;
+  height: 270px;
+}
+
+.light-box h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.44792;
+  color: #fff;
+}
+
+.light-box h3 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.light-box h3 span {
+  font-size: 42px;
+}
+
+.basic-box {
+  padding-top: 58px;
+  padding-bottom: 41px;
+  background: #64629D;
+  color: #fff;
+  text-align: center;
+  height: 286px;
+}
+
+.basic-box h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.44786;
+  color: #fff;
+}
+
+.basic-box h3 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.basic-box h3 span {
+  font-size: 42px;
+}
+
+.premium-box {
+  padding-top: 47px;
+  padding-bottom: 41px;
+  background: #2D2D32;
+  color: #fff;
+  text-align: center;
+  height: 270px;
+}
+
+.premium-box h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.44792;
+  color: #fff;
+}
+
+.premium-box h3 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.premium-box h3 span {
+  font-size: 42px;
+}
+
+.price-btn {
+  margin: 28px auto 0;
+  width: 234px;
+  height: 50px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.price-btn a {
+  display: inline-block;
+  width: 100%;
+}
+
+.price-btn a {
+  color: #2D2D32;
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.basic-box .price-btn a {
+  color: #fff;
+}
+
+.basic-box .price-btn {
+  border: 1px solid #fff;
+  background: #64629D;
+}
+
+.course-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  text-align: center;
+}
+
+.course-box, .course-box1, .course-box3, .course-box5, .course-box7 {
+  width: 25%;
+  height: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.course-box1, .course-box3, .course-box5, .course-box7 {
+  background: #EDECFC;
+}
+/*# sourceMappingURL=style.css.map */

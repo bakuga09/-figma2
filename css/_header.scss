@@ -1,0 +1,52 @@
+@import "common";
+
+header {
+  
+
+  .container {
+    height: 72px;
+    width: 1187px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    display: flex;
+  justify-content: flex-end;
+  }
+}
+
+
+
+.header-h1 {
+  font-family: 'Lato' sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1;
+  color: $base-color;
+  
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav-item {
+  font-size: 14px;
+  font-weight: 700;
+
+  & + & {
+    margin-left: 16px;
+  }
+}
+
+.header-btn {
+  margin-left:14px;
+  @include common-btn();
+}
+
